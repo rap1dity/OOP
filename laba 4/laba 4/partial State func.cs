@@ -6,16 +6,25 @@ using System.Threading.Tasks;
 
 namespace laba_4
 {
-    public class State : MainLand
+    partial class State
     {
         public string Name { get; set; }
         public string StatePopulation { get; set; }
         public string StateArea { get; set; }
-        public State(string Name, string StatePopulation, string StateArea)
+        public string MainLand { get; set; }
+        public State(string Name, string StatePopulation, string StateArea, string MainLand)
         {
             this.Name = Name;
             this.StatePopulation = StatePopulation;
             this.StateArea = StateArea;
+            this.MainLand = MainLand;
+        }
+        public bool CheckMainLand(string mainLand)
+        {
+            if (mainLand == MainLand)
+                return true;
+            else return false;
+                
         }
         public override void Area()
         {

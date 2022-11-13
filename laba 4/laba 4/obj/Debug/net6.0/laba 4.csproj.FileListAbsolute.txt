@@ -15,3 +15,4 @@ C:\Users\rap1dity\source\repos\laba 4\laba 4\obj\Debug\net6.0\laba 4.genruntimec
 C:\Users\rap1dity\source\repos\laba 4\laba 4\obj\Debug\net6.0\ref\laba 4.dll
 C:\Users\rap1dity\source\repos\laba 4\laba 4\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\Users\rap1dity\source\repos\laba 4\laba 4\obj\Debug\net6.0\laba 4.csproj.CopyComplete
+C:\Users\rap1dity\source\repos\laba 4\laba 4\bin\Debug\net6.0\xunit.assert.dll

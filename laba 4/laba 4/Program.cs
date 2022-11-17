@@ -38,7 +38,8 @@ namespace MyApp
                     Console.WriteLine($"Строковое представление стека вызовов: {ex.StackTrace}");
                     Console.WriteLine($"Имя объекта или сборки: {ex.Source}");
                     Console.WriteLine($"Сообщение об ошибке: {ex.Message}");
-                    Console.WriteLine($"Информация об исключении, которое вызвало данное исключение: {ex.InnerException}");
+                    if(ex.InnerException != null)
+                        Console.WriteLine($"Информация об исключении, которое вызвало данное исключение: {ex.InnerException}");
                 }
             }
             catch(TypeException ex)

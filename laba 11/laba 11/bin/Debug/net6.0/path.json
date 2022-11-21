@@ -1,0 +1,9 @@
+Assembly: laba 11, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+HavePublicConstructors : True
+get_Key : 
+set_Key : System.Int32
+TestingString : System.String
+GetType : 
+ToString : 
+Equals : System.Object
+GetHashCode : 

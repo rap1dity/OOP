@@ -9,7 +9,7 @@ namespace laba_11
     {
         public static void NameOfAssembly()
         {
-            using (StreamWriter fs = new StreamWriter("path.json", true))
+            using (StreamWriter fs = new StreamWriter("path.json", false))
             {
                 fs.WriteLine($"Assembly: {typeof(T).Assembly.FullName}");
                 //JsonSerializer.Serialize(fs, $"Assembly: {typeof(T).Assembly.FullName}\n");
@@ -82,9 +82,9 @@ namespace laba_11
                     Console.WriteLine(method.Name);
             }
         }
-        public static void Invoke(T cls, string method, dynamic[] param)
+        public static void Invoke(T cls, string method, object[] param)
         {
-            typeof(T).GetMethod(method)?.Invoke(cls, param);
+            Console.WriteLine(typeof(T).GetMethod(method)?.Invoke(cls, param));
         }
     }
 }

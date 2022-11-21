@@ -30,15 +30,15 @@ namespace MyApp // Note: actual namespace depends on the project name.
             Reflector<TestingClass>.ShowMethods("str");
             using (StreamReader fs = new StreamReader("path.json"))
             {
-                while (true)
-                {
                     Console.WriteLine("Введите имя метода, который хотите вызвать: ");
                     string? method = Console.ReadLine();
+                while (true)
+                {
                     string[] line = fs.ReadLine().Split(" : ");
                     if (line[0] == method)
                     {
                         string[] paramType = line[1].Split(",");
-                        var result = new List<dynamic>();
+                        var result = new List<object>();
                         foreach (string item in paramType)
                         {
                             switch (item)
@@ -55,7 +55,8 @@ namespace MyApp // Note: actual namespace depends on the project name.
                                     }
                             }
                         }
-                        Reflector<TestingClass>.Invoke(test, method, result)
+                        object[] obj = new object[] { "hell" };
+                        Reflector<TestingClass>.Invoke(test, method,obj);
                         return;
                     }
                 }

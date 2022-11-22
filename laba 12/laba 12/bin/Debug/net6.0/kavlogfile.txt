@@ -1,0 +1,41 @@
+operation: Проверено свободное место на диске: C:\ ; time: 3:30
+operation: Проверена информация о файловой системе: D:\ ; time: 3:30
+operation: Проверена полная информация о дисках: C:\ D:\  ; time: 3:30
+operation: Проверено свободное место на диске: C:\ ; time: 3:53
+operation: Проверена информация о файловой системе: D:\ ; time: 3:53
+operation: Проверена полная информация о дисках: C:\ D:\  ; time: 3:53
+operation: Извлечен полный путь к файлу: kavlogfile.txt ; time: 3:53
+operation: Были получены данные о размере, расширении и имени файла по пути: C:\Users\rap1dity\source\repos\laba 12\laba 12\bin\Debug\net6.0\kavlogfile.txt ; time: 3:53
+operation: Были получены данные о дате создания и изменения файла по пути: C:\Users\rap1dity\source\repos\laba 12\laba 12\bin\Debug\net6.0\kavlogfile.txt ; time: 3:53
+operation: Проверено свободное место на диске: C:\ ; time: 4:25
+operation: Проверена информация о файловой системе: D:\ ; time: 4:25
+operation: Проверена полная информация о дисках: C:\ D:\  ; time: 4:25
+operation: Извлечен полный путь к файлу: kavlogfile.txt ; time: 4:25
+operation: Были получены данные о размере, расширении и имени файла по пути: C:\Users\rap1dity\source\repos\laba 12\laba 12\bin\Debug\net6.0\kavlogfile.txt ; time: 4:25
+operation: Были получены данные о дате создания и изменения файла по пути: C:\Users\rap1dity\source\repos\laba 12\laba 12\bin\Debug\net6.0\kavlogfile.txt ; time: 4:25
+operation: Получено количество файлов в директории net6.0 ; time: 4:25
+operation: Были получены данные о дате создания директории net6.0 ; time: 4:25
+operation: Получено количество поддидректорий в директории net6.0 ; time: 4:25
+operation: Получен список родительских поддиректорий у директории net6.0 ; time: 4:25
+operation: Проверено свободное место на диске: C:\ ; time: 12:39
+operation: Проверена информация о файловой системе: D:\ ; time: 12:39
+operation: Проверена полная информация о дисках: C:\ D:\  ; time: 12:39
+operation: Извлечен полный путь к файлу: kavlogfile.txt ; time: 12:39
+operation: Были получены данные о размере, расширении и имени файла по пути: C:\Users\rap1dity\source\repos\laba 12\laba 12\bin\Debug\net6.0\kavlogfile.txt ; time: 12:39
+operation: Были получены данные о дате создания и изменения файла по пути: C:\Users\rap1dity\source\repos\laba 12\laba 12\bin\Debug\net6.0\kavlogfile.txt ; time: 12:39
+operation: Получено количество файлов в директории net6.0 ; time: 12:39
+operation: Были получены данные о дате создания директории net6.0 ; time: 12:39
+operation: Получено количество поддидректорий в директории net6.0 ; time: 12:39
+operation: Получен список родительских поддиректорий у директории net6.0 ; time: 12:39
+operation: Записан новый файл по пути C:\Users\rap1dity\source\repos\laba 12\laba 12\bin\Debug\net6.0\kavdirinfo.txt ; time: 12:40
+operation: Проверено свободное место на диске: C:\ ; time: 12:41
+operation: Проверена информация о файловой системе: D:\ ; time: 12:41
+operation: Проверена полная информация о дисках: C:\ D:\  ; time: 12:41
+operation: Извлечен полный путь к файлу: kavlogfile.txt ; time: 12:41
+operation: Были получены данные о размере, расширении и имени файла по пути: C:\Users\rap1dity\source\repos\laba 12\laba 12\bin\Debug\net6.0\kavlogfile.txt ; time: 12:41
+operation: Были получены данные о дате создания и изменения файла по пути: C:\Users\rap1dity\source\repos\laba 12\laba 12\bin\Debug\net6.0\kavlogfile.txt ; time: 12:41
+operation: Получено количество файлов в директории net6.0 ; time: 12:41
+operation: Были получены данные о дате создания директории net6.0 ; time: 12:41
+operation: Получено количество поддидректорий в директории net6.0 ; time: 12:41
+operation: Получен список родительских поддиректорий у директории net6.0 ; time: 12:41
+operation: Записан новый файл по пути C:\Users\rap1dity\source\repos\laba 12\laba 12\bin\Debug\net6.0\KAVInspect\kavdirinfo.txt ; time: 12:42

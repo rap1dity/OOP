@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace laba_4
 {
-    partial class State
+    public partial class State : MainLand
     {
         private string[] continents = { "Европа","Северная Америка","Южная Америка","Африка","Австралия","Антарктида" };
         private long population;

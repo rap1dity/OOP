@@ -1,4 +1,6 @@
-﻿namespace laba_12
+﻿using System.IO.Compression;
+
+namespace laba_12
 {
     public class KAVFileManager
     {
@@ -38,6 +40,18 @@
                 File.Copy(item.FullName, dir + $"\\KAVFiles\\{item.Name}");
             }
             Directory.Move(dir + "\\KAVFiles", dir + "\\KAVInspect\\KAVFiles");
+        }
+        public void ArchiveFiles(DirectoryInfo dir)
+        {
+            ZipFile.CreateFromDirectory(dir.FullName, dir.FullName + ".zip");
+            Console.WriteLine($"Создан архив из директории по пути: {dir.FullName}");
+            KAVLog.RecordToFile($"Создан архив по пути: {dir.FullName}");
+        }
+        public void ExtractFiles(DirectoryInfo dir, DirectoryInfo destination) 
+        {
+            ZipFile.ExtractToDirectory(dir.FullName + ".zip", destination.FullName);
+            Console.WriteLine($"Разохривирован архив по пути: {dir.FullName + ".zip"}");
+            KAVLog.RecordToFile($"Разорхивирован архив по пути: {dir.FullName}");
         }
     }
 }

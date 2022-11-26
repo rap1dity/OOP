@@ -9,5 +9,3 @@
 Получено количество поддидректорий в директории net6.0;26.11.2022 23:10:28
 Получен список родительских поддиректорий у директории net6.0;26.11.2022 23:10:28
 Записан новый файл по пути C:\Users\rap1dity\source\repos\laba 12\laba 12\bin\Debug\net6.0\KAVInspect\kavdirinfo.txt;26.11.2022 23:10:28
-Создан архив по пути: C:\Users\rap1dity\source\repos\laba 12\laba 12\bin\Debug\net6.0;26.11.2022 23:10:28
-Разорхивирован архив по пути: C:\Users\rap1dity\source\repos\laba 12\laba 12\bin\Debug\net6.0;26.11.2022 23:10:28

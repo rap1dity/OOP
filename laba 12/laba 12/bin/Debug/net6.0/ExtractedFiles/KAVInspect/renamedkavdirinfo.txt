@@ -1,1 +1,0 @@
-kavlogfile.txt,laba 12.deps.json,laba 12.dll,laba 12.exe,laba 12.pdb,laba 12.runtimeconfig.json,ExtractedFiles,KAVInspect

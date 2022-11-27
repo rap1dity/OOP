@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<students>
+  <poibms student="Andrew">
+    <university>BSTU</university>
+    <age>18</age>
+  </poibms>
+</students>
